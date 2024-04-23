@@ -3,12 +3,36 @@
 
 import React from 'react';
 import './App.css';
-import LoginForm from './LoginForm';
+// import ClassPage from './ClassPage';
+// import FunctioPage from './FunctioPage'
+// import LoginForm from './LoginForm';
+// import UserDataForm from './UserDataForm';
+// import ButtonUse from './ButtonUse';
+// import FormValidation from './FormValidation';
+// import Form from './Form';
+// import FormData from './FormData';
+// import Page from './Page';
+// import Counter from './Counter';
+import CounterWithDependency from './CounterWithDependency';
+import CounterWithEmptyDependency from './CounterWithEmptyDependency';
+import CounterWithoutDependency from './CounterWithoutDependency';
 
 function App() {
   return (
     <div className="app">
-      <LoginForm />
+      <CounterWithDependency></CounterWithDependency>
+      <CounterWithEmptyDependency></CounterWithEmptyDependency>
+      <CounterWithoutDependency></CounterWithoutDependency>
+      {/* <Counter></Counter> */}
+      {/* <FormData></FormData> */}
+      {/* <Form></Form> */}
+      {/* <Page></Page> */}
+      {/* <FormValidation></FormValidation> */}
+      {/* <ButtonUse></ButtonUse> */}
+      {/* <UserDataForm></UserDataForm> */}
+      {/* <ClassPage></ClassPage>
+      <FunctioPage></FunctioPage>
+      <LoginForm /> */}
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.page-container {
+    text-align: center;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.apply-btn, .bind-btn, .call-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.bind-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.call-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
