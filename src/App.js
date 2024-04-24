@@ -3,6 +3,10 @@
 
 import React from 'react';
 import './App.css';
+import FormNew from './FormNew';
+import ContactForm from './ContactForm';
+import ParentComponent from './ParentComponent';
+import Parent from './Parent';
 // import ClassPage from './ClassPage';
 // import FunctioPage from './FunctioPage'
 // import LoginForm from './LoginForm';
@@ -13,16 +17,19 @@ import './App.css';
 // import FormData from './FormData';
 // import Page from './Page';
 // import Counter from './Counter';
-import CounterWithDependency from './CounterWithDependency';
-import CounterWithEmptyDependency from './CounterWithEmptyDependency';
-import CounterWithoutDependency from './CounterWithoutDependency';
+// import CounterWithDependency from './CounterWithDependency';
+// import CounterWithEmptyDependency from './CounterWithEmptyDependency';
+// import CounterWithoutDependency from './CounterWithoutDependency';
 
 function App() {
   return (
     <div className="app">
-      <CounterWithDependency></CounterWithDependency>
+      {/* <FormNew></FormNew> */}
+      <Parent></Parent>
+      {/* <ContactForm></ContactForm> */}
+      {/* <CounterWithDependency></CounterWithDependency>
       <CounterWithEmptyDependency></CounterWithEmptyDependency>
-      <CounterWithoutDependency></CounterWithoutDependency>
+      <CounterWithoutDependency></CounterWithoutDependency> */}
       {/* <Counter></Counter> */}
       {/* <FormData></FormData> */}
       {/* <Form></Form> */}
