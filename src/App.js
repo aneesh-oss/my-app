@@ -7,6 +7,9 @@ import FormNew from './FormNew';
 import ContactForm from './ContactForm';
 import ParentComponent from './ParentComponent';
 import Parent from './Parent';
+import Product from './Product';
+import ProductCard from './ProductCard';
+import products from './products';
 // import ClassPage from './ClassPage';
 // import FunctioPage from './FunctioPage'
 // import LoginForm from './LoginForm';
@@ -24,8 +27,20 @@ import Parent from './Parent';
 function App() {
   return (
     <div className="app">
+      <h2>Product Catalog</h2>
+      <div className="product-list">
+        {/* Render product cards using map */}
+        {products.map(product => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
       {/* <FormNew></FormNew> */}
-      <Parent></Parent>
+      
+      {/* <h2>Product Page</h2> */}
+      {/* Render the product card with showProduct as true */}
+      {/* <Product showProduct={true} /> */}
+      {/* Render the product card with showProduct as false */}
+      {/* <Product showProduct={false} /> */}
       {/* <ContactForm></ContactForm> */}
       {/* <CounterWithDependency></CounterWithDependency>
       <CounterWithEmptyDependency></CounterWithEmptyDependency>
